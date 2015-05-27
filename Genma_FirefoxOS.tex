@@ -66,9 +66,12 @@
 \begin{frame}
 \frametitle{Remerciements}
 \justifying{
-Je remercie la communauté francophone autour de Firefox OS pour les builds communautaires
+Je remercie la communauté francophone autour de Firefox OS pour les builds communautaires 
 \url{http://builds.firefoxos.mozfr.org/}
-le support, les billets de blog, la promotion de FFOS.\\
+le support, les billets de blog, la promotion de FFOS.
+\\
+Merci à Dattaz, Mozinet, Alterlibriste, Brieucs, Theo Chevalier et tous les autres que j'oublie
+\\
 Ainsi que Mozilla pour avoir lancé FFOS.
 }
 \end{frame}
@@ -83,18 +86,22 @@ Ainsi que Mozilla pour avoir lancé FFOS.
 
 \begin{frame}
 \frametitle{Mozilla - De Firefox à FirefoxOS}
+\justifying{
 En 2004, Mozilla a lancé Firefox, le navigateur web gratuit et
 désintéressé pour votre ordinateur.
 \\~\\
 En 2014, Mozilla introduit en France Firefox OS, le système d’
 exploitation respectueux de votre vie privée pour votre téléphone.
+}
 \end{frame}
 %---------------------------------------------------------------------------------------
 \begin{frame}
 \frametitle{FirefoxOS - un OS libre}
+\justifying{
 Firefox OS est conçus par une communauté internationale de bénévoles, et de développeurs situés dans plusieurs pays, notamment dans les bureaux de Mozilla Paris.
 \\~\\
 Le logiciel est libre : Firefox OS est un logiciel libre, sans secrets, auditable. Tout le code source est ouvert et disponible.
+}
 \end{frame}
 %---------------------------------------------------------------------------------------
 \begin{frame}
@@ -174,7 +181,7 @@ Des portages sur des modèles Sony sont en cours de réalisation.
 %----------------------------------------------------------------------------------------
 \begin{frame}
 \begin{center}
-\Huge{Quelles appplications?}
+\Huge{Quelles applications?}
 \\~\\
 \includegraphics[scale=0.3]{./images/logo_marketplace.png}
 \end{center}
@@ -300,14 +307,45 @@ Une sorte de mini-tablette, pour un usage ponctuel.
 \end{block}
 
 \begin{block}{Les avantages des buils communautaires}
-\justifying{
 \begin{itemize}
+\justifying{
 \item Relativement stable
 \item Communauté réactive et sympathique. 
 \item Permet d'avoir des fonctionnalités plus évoluées que la ROM par défaut.
-\end{itemize}}
+}
+\end{itemize}
 \end{block}
 \end{frame}
+
+\begin{frame}
+\begin{block}{Les limites des builds communautaires}\begin{itemize}
+\justifying{
+\item Les compilations maison de Mozilla pour le Flame ne sont plus compatibles avec l’Open C depuis un bon moment car la sous-couche n’est plus basée sur la même version d’Android
+\item Les bugs ne sont pas du fait de l’équipe qui s’occupe de mettre à disposition les builds. Ils sont remontés aux développeurs et in ne peut faire autre chose qu’attendre une nouvelle compilation en espérant que le problème ait été réglé entre temps.
+\item La fréquence des mises à jour, elle est donnée à titre indicatif mais ne doit pas être prise au pied de la lettre.
+}
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{Liste non exhaustive des différences par rapport à la 2.1}
+\begin{itemize}
+\justifying{
+\item Lors de la charge de la batterie, le \% ainsi que le temps restant est affiché sur l’écran de veille
+\item Lors d’un appui long, les applis ouvertes sont en mode vignette les unes à côté des autres
+\item Duck Duck Go est un des moteurs de recherche
+\item On peut sélectionner, couper, copier, coller du texte d’une zone de saisie
+\item On peut ouvrir une fenêtre de navigation privée
+\item La vie privée peut être mieux réglée
+\item Le wi-fi peut être ou non désactivé automatiquement lors de la mise en veille
+ \item Les icônes de l’écran d’accueil peuvent être groupées
+\item On peut agir sur l’appareil à distance pour le localiser, mettre un message, le bloquer ou effacer son contenu en cas de perte
+\item Quelques effets d’animation
+}
+\end{itemize}
+\end{frame}
+
 %----------------------------------------------------------------------------------------
 \begin{frame}
 \begin{center}
@@ -333,9 +371,8 @@ Cela donne un aperçu de ce qu'est FirefoxOS.
 %----------------------------------------------------------------------------------------
 \begin{frame}
 \frametitle{Développer pour FFOS}
-
 \justifying{
-La documentation MDN est bien faite, assez complète.
+La documentation MDN est bien faite, assez complète.\\
 \url{https://developer.mozilla.org/fr/docs/Mozilla/Boot_to_Gecko/Writing_apps_for_Boot_to_Gecko}
 \\
 Il est possible de télécharger des applications existantes et de regarder leur code source, pour apprendre, comprendre...
@@ -358,25 +395,27 @@ Tout le code source est disponbile sur Github.
 \frametitle{Passer à FFOS ou attendre?}
 \begin{block}{Si on est Android/IOS addict}
 \justifying{
-NON. Car il y aura l'application indispensable dont on ne peut se passer...
+NON. Car il y aura \textit{forcément} l'application indispensable dont on ne peut se passer...
 }
 \end{block}
 
 \begin{block}{Geek curieux, libriste ou 1er Smartphone}
+\begin{itemize}
 \justifying{
-Oui, mais avec un build communautaire.
+\item Oui, mais avec un build communautaire. 
+\item Attendre la sortie du ZTE Open L.
 }
+\end{itemize}
 \end{block}
 
 \begin{block}{Ce qu'il me manque dans FFOS}
-\justifying{
 \begin{itemize}
+\justifying{
 \item Le chiffrement du stockage (SD-Card)
 \item Des applications comme Texte-Secure...
-\item Le TorBrowser
-\item La connexion via un VPN
-\end{itemize}
+\item Le TorBrowser (c'est prévu)
 }
+\end{itemize}
 \end{block}
 \end{frame}
 
@@ -393,24 +432,23 @@ Oui, mais avec un build communautaire.
 \begin{frame}
 \frametitle{FFOS Bilan}
 \begin{block}{Les plus}
-\justifying{
 \begin{itemize}
+\justifying{
 \item C'est le système le plus libre, le plus ouvert et le seul à n'être pas développé par une entreprise commerciale.
-\item Les builds communautaires
-\item OS libre
-\item TOUT EST WEB (HTML5/CSS3/Javascript)
-\end{itemize}
+\item Les builds communautaires et la communauté.
+\item OS libre (aux blobs proprios/drivers près pour le noyau).
+\item TOUT EST WEB (HTML5/CSS3/Javascript).
 }
+\end{itemize}
 \end{block}
 
 \begin{block}{Les moins}
-\justifying{
 \begin{itemize}
-\item OS jeune (bugs, manque de fonctionnalités)
-\item Constructeurs frileux
-\item Pas de smartphone haut de gamme
-\end{itemize}
+\justifying{
+\item OS jeune (bugs, manque de fonctionnalités).
+\item Constructeurs frileux et de ce fait pas de smartphone moyen ou haut de gamme.
 }
+\end{itemize}
 \end{block}
 \end{frame}
 
