@@ -334,6 +334,7 @@ Une sorte de mini-tablette, pour un usage ponctuel.
 \begin{block}{Les limites des builds communautaires}
 \begin{itemize}
 \justifying{
+\justifying{
 \item Coupure Aléatoire FFOS V2.1 
 \item Firefox 2.1, 2.2, problème d'heure non réglée au démarrage 
 \item Accrochage-3G (se contournent sans mal en passant par le mode avion)
